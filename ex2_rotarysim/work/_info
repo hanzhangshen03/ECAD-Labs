@@ -1,0 +1,132 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecad/ecad_labs/ex2_rotarysim
+vdebounce
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1729265149
+!i10b 1
+!s100 aiM6]M8iP6BnkJBOPJ8[^3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICR_V2?oeTFfa:CCll]FDg1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1729005623
+8debounce.sv
+Fdebounce.sv
+!i122 73
+L0 2 33
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1729265148.000000
+!s107 debounce.sv|
+!s90 -reportprogress|300|debounce.sv|
+!i113 1
+Z6 tCvgOpt 0
+vrotary
+R1
+R2
+!i10b 1
+!s100 ?dPNGZMhIFgb>Rhc78UYI0
+R3
+I>1WI_>hMch`nA84H7<oEL1
+R4
+S1
+R0
+w1729265122
+8rotary.sv
+Frotary.sv
+!i122 74
+L0 3 86
+R5
+r1
+!s85 0
+31
+Z7 !s108 1729265149.000000
+!s107 rotary.sv|
+!s90 -reportprogress|300|rotary.sv|
+!i113 1
+R6
+vsynchroniser
+R1
+!s110 1729005639
+!i10b 1
+!s100 G_MEl>f=k=:zS7Q=LnUzh2
+R3
+IZoOQ2z?;akNd3OQ2Ta?Ac1
+R4
+S1
+R0
+w1729005074
+8/home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv
+F/home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv
+!i122 23
+L0 1 7
+R5
+r1
+!s85 0
+31
+!s108 1729005639.000000
+!s107 /home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv|
+!i113 1
+o-work work
+R6
+vtb_debounce
+R1
+!s110 1729005648
+!i10b 1
+!s100 egMCNV9]05k51R5dSJGJb0
+R3
+IJ9kbFE;XDDDkHbe[:[AA?3
+R4
+S1
+R0
+Z8 w1728923058
+8tb_debounce.sv
+Ftb_debounce.sv
+!i122 26
+L0 8 118
+R5
+r1
+!s85 0
+31
+!s108 1729005648.000000
+!s107 tb_debounce.sv|
+!s90 -reportprogress|300|tb_debounce.sv|
+!i113 1
+R6
+vtb_rotary
+R1
+!s110 1729265150
+!i10b 1
+!s100 m7DZREM@Zc4d5d0F@g9=01
+R3
+I_fL@cDE5_WI=@^=nMe5z;0
+R4
+S1
+R0
+R8
+8tb_rotary.sv
+Ftb_rotary.sv
+!i122 75
+L0 8 206
+R5
+r1
+!s85 0
+31
+R7
+!s107 tb_rotary.sv|
+!s90 -reportprogress|300|tb_rotary.sv|
+!i113 1
+R6

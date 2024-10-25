@@ -1,0 +1,235 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecad/ecad_labs/exercise0
+vdebounce
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1729003820
+!i10b 1
+!s100 FYNc1=TFm31f>0bOS=<dN2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJFY`7?_F331ITVjbUicN?2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1729003791
+8/home/ecad/ecad_labs/ex2_rotarysim/debounce.sv
+F/home/ecad/ecad_labs/ex2_rotarysim/debounce.sv
+!i122 23
+L0 1 16
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1729003819.000000
+!s107 /home/ecad/ecad_labs/ex2_rotarysim/debounce.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/ex2_rotarysim/debounce.sv|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdice
+R1
+!s110 1729001292
+!i10b 1
+!s100 bYD:IbGH_bg?m<=mQ9^b]0
+R2
+IzP><GR=2gMUoL[oXEHGeB2
+R3
+S1
+R0
+w1729001283
+8/home/ecad/ecad_labs/exercise0/electronic_dice.sv
+F/home/ecad/ecad_labs/exercise0/electronic_dice.sv
+!i122 21
+L0 1 17
+R4
+r1
+!s85 0
+31
+!s108 1729001292.000000
+!s107 /home/ecad/ecad_labs/exercise0/electronic_dice.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/exercise0/electronic_dice.sv|
+!i113 1
+R5
+R6
+vrotary
+R1
+!s110 1729017985
+!i10b 1
+!s100 8dYR<QQTnhK=H2<Vbn2Vh3
+R2
+Ie8h9RFdbA:@XP:V=nPlc23
+R3
+S1
+R0
+w1729017953
+8/home/ecad/ecad_labs/ex2_rotarysim/rotary.sv
+F/home/ecad/ecad_labs/ex2_rotarysim/rotary.sv
+!i122 27
+L0 3 74
+R4
+r1
+!s85 0
+31
+!s108 1729017984.000000
+!s107 /home/ecad/ecad_labs/ex2_rotarysim/rotary.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/ex2_rotarysim/rotary.sv|
+!i113 1
+R5
+R6
+vsynchroniser
+R1
+!s110 1729003818
+!i10b 1
+!s100 7CJ76d`SzUDN1Y[^658eL1
+R2
+Io]VV_l1G:cV<X<ZN0?Y7m2
+R3
+S1
+R0
+w1729003186
+8/home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv
+F/home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv
+!i122 22
+L0 1 10
+R4
+r1
+!s85 0
+31
+!s108 1729003817.000000
+!s107 /home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/ex2_rotarysim/synchroniser.sv|
+!i113 1
+R5
+R6
+vtb_debounce
+R1
+!s110 1729003824
+!i10b 1
+!s100 egMCNV9]05k51R5dSJGJb0
+R2
+IS>7;VJJiWadSCWlZeRYK:3
+R3
+S1
+R0
+Z7 w1728923058
+8/home/ecad/ecad_labs/ex2_rotarysim/tb_debounce.sv
+F/home/ecad/ecad_labs/ex2_rotarysim/tb_debounce.sv
+!i122 25
+L0 8 118
+R4
+r1
+!s85 0
+31
+!s108 1729003824.000000
+!s107 /home/ecad/ecad_labs/ex2_rotarysim/tb_debounce.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/ex2_rotarysim/tb_debounce.sv|
+!i113 1
+R5
+R6
+vtb_dice
+R1
+!s110 1729001291
+!i10b 1
+!s100 I>SSZ?g4KzV1_?UaYb1430
+R2
+I0;^FH8>g7fke[UMof_ema2
+R3
+S1
+R0
+w1729001285
+8/home/ecad/ecad_labs/exercise0/tb_electronic_dice.sv
+F/home/ecad/ecad_labs/exercise0/tb_electronic_dice.sv
+!i122 20
+L0 3 29
+R4
+r1
+!s85 0
+31
+!s108 1729001291.000000
+!s107 /home/ecad/ecad_labs/exercise0/tb_electronic_dice.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/exercise0/tb_electronic_dice.sv|
+!i113 1
+R5
+R6
+vtb_rotary
+R1
+!s110 1729003822
+!i10b 1
+!s100 m7DZREM@Zc4d5d0F@g9=01
+R2
+IFgh4Kmcd3?KLQkJ^kD:LC1
+R3
+S1
+R0
+R7
+8/home/ecad/ecad_labs/ex2_rotarysim/tb_rotary.sv
+F/home/ecad/ecad_labs/ex2_rotarysim/tb_rotary.sv
+!i122 24
+L0 8 206
+R4
+r1
+!s85 0
+31
+!s108 1729003822.000000
+!s107 /home/ecad/ecad_labs/ex2_rotarysim/tb_rotary.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/ex2_rotarysim/tb_rotary.sv|
+!i113 1
+R5
+R6
+vtb_tlight
+R1
+!s110 1729000356
+!i10b 1
+!s100 3]<9B1Qg8]Oa5V_n07mae1
+R2
+I23>h3fgEO0Igc_3j>^PQo0
+R3
+S1
+R0
+w1728998261
+8/home/ecad/ecad_labs/exercise0/tb_tlight.sv
+F/home/ecad/ecad_labs/exercise0/tb_tlight.sv
+!i122 13
+L0 3 25
+R4
+r1
+!s85 0
+31
+!s108 1729000356.000000
+!s107 /home/ecad/ecad_labs/exercise0/tb_tlight.sv|
+!s90 -reportprogress|300|-work|work|/home/ecad/ecad_labs/exercise0/tb_tlight.sv|
+!i113 1
+R5
+R6
+vtlight
+R1
+!s110 1728999768
+!i10b 1
+!s100 GfP;Jh?oUcg1VzS7DRkM<3
+R2
+I1:FK=U83^SG<;jHEETB361
+R3
+S1
+R0
+w1728998990
+8tlight.sv
+Ftlight.sv
+!i122 2
+L0 1 20
+R4
+r1
+!s85 0
+31
+!s108 1728999767.000000
+!s107 tlight.sv|
+!s90 -reportprogress|300|tlight.sv|
+!i113 1
+R6

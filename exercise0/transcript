@@ -1,0 +1,98 @@
+cd ../ex2_rotarysim
+# reading /ux/clteach/ecad/intelFPGA/20.1.1lite/modelsim_ase/linuxaloem/../modelsim.ini
+vlog -reportprogress 300 -work work /home/ecad/ecad_labs/ex2_rotarysim/rotary.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:55:07 on Oct 15,2024
+# vlog -reportprogress 300 -work work /home/ecad/ecad_labs/ex2_rotarysim/rotary.sv 
+# -- Compiling module rotary
+# 
+# Top level modules:
+# 	rotary
+# End time: 18:55:08 on Oct 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/ecad/ecad_labs/ex2_rotarysim/rotary.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:55:10 on Oct 15,2024
+# vlog -reportprogress 300 -work work /home/ecad/ecad_labs/ex2_rotarysim/rotary.sv 
+# -- Compiling module rotary
+# 
+# Top level modules:
+# 	rotary
+# End time: 18:55:11 on Oct 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do tb_rotary.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:55:19 on Oct 15,2024
+# vlog -reportprogress 300 debounce.sv 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 18:55:19 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:55:19 on Oct 15,2024
+# vlog -reportprogress 300 rotary.sv 
+# -- Compiling module rotary
+# 
+# Top level modules:
+# 	rotary
+# End time: 18:55:20 on Oct 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:55:20 on Oct 15,2024
+# vlog -reportprogress 300 tb_rotary.sv 
+# -- Compiling module tb_rotary
+# 
+# Top level modules:
+# 	tb_rotary
+# End time: 18:55:20 on Oct 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_rotary 
+# Start time: 18:55:20 on Oct 15,2024
+# Loading sv_std.std
+# Loading work.tb_rotary
+# Loading work.rotary
+# Loading work.debounce
+# Loading work.synchroniser
+#         20 ---------- Start simulation. Counter should be   0, is   0 ----------
+#   15000020 ---------- Clean left turn. Counter should be 255, is   0 ----------
+#  - ERROR
+#   30000020 ---------- Clean right turn. Counter should be   0, is   1 ----------
+#  - ERROR
+#   45080020 ---------- Bouncy left turn. Counter should be 255, is   2 ----------
+#  - ERROR
+#   60160020 ---------- Bouncy right turn. Counter should be   0, is   3 ----------
+#  - ERROR
+#   75240020 ---------- Bouncy right turn. Counter should be   1, is   4 ----------
+#  - ERROR
+#   90320020 ---------- Bouncy right turn. Counter should be   2, is   5 ----------
+#  - ERROR
+#  105400020 ---------- Bouncy right turn. Counter should be   3, is   6 ----------
+#  - ERROR
+#  120480020 ---------- Bouncy right turn. Counter should be   4, is   7 ----------
+#  - ERROR
+#  135560020 ---------- Long bouncy left turn. Counter should be   3, is   8 ----------
+#  - ERROR
+#  150640020 ---------- Long bouncy right turn. Counter should be   4, is   9 ----------
+#  - ERROR
+#  165720020 ---------- Very long bouncy left turn. Counter should be   3, is  10 ----------
+#  - ERROR
+#  181520020 ---------- Very long bouncy right turn. Counter should be   4, is  11 ----------
+#  - ERROR
+#  181720020 ---------- Wild left bounce. Counter should be   4, is  11 ----------
+#  - ERROR
+#  181920020 ---------- Wild right bounce. Counter should be   4, is  11 ----------
+# FAILED with          14 errors
+# ** Note: $finish    : tb_rotary.sv(211)
+#    Time: 181920020 ns  Iteration: 1  Instance: /tb_rotary
+# 1
+# Break in Module tb_rotary at tb_rotary.sv line 211
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# End time: 19:01:21 on Oct 15,2024, Elapsed time: 0:06:01
+# Errors: 0, Warnings: 0
