@@ -17,13 +17,14 @@ div:
     li   t0, 32
     li   t1, 0 # Q
     li   t2, 0 # R
+    beq   a1, zero, end
 loop:
     addi t0, t0, -1
     blt   t0, zero, end
     slli   t2, t2, 1
     srl   t3, a0, t0
     andi   t3, t3, 1
-    or   t2, t2, t3	# R[0] = N(i);
+    or   t2, t2, t3	# R[0] = N[i];
     blt   t2, a1, loop
     sub   t2, t2, a1
     li   t3, 1
