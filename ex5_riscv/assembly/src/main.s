@@ -13,10 +13,29 @@ main:
 
 
 # *** Do some work ***
-    addi a2, zero, 0x123 # a2 := 0x123
-    # example of printing value of register a2 
-    DEBUG_PRINT a2
+#    addi a2, zero, 0x123 # a2 := 0x123
+#    # example of printing value of register a2 
+#    DEBUG_PRINT a2
+     addi    a0, zero, 12    # a0 <- 12
+     addi    a1, zero, 4     # a1 <- 4
+     call    div
+     DEBUG_PRINT a0          # display the quotient
+     DEBUG_PRINT a1          # display the remainder
 
+     addi    a0, zero, 93    # a0 <- 93
+     addi    a1, zero, 7     # a1 <- 7
+     call    div
+     DEBUG_PRINT a0          # display the quotient
+     DEBUG_PRINT a1          # display the remainder
+
+     lui     a0, (0x12345000>>12)
+     addi    a0, a0, 0x678   # a0 <- 0x12345678
+     # we could also use the pseudo-instruction 'li a0, 0x12345678'
+     # which will assemble to the above two instructions
+     addi    a1, zero, 255   # a1 <- 255
+     call    div
+     DEBUG_PRINT a0          # display the quotient
+     DEBUG_PRINT a1          # display the remainder
 # *** End useful work ***
 
 

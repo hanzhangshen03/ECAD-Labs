@@ -1,0 +1,208 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecad/ecad_labs/ex5_riscv/clarvi
+vclarvi
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+DXx4 work 14 clarvi_sv_unit 0 22 Qb2YQ1N2fG3chjgR9<H7_3
+Z2 !s110 1731423077
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kJnCj67f3KJnQc;^9EB1_3
+IIa<Cf_ZNW?`iJXzEkoKV<2
+!s105 clarvi_sv_unit
+S1
+R0
+Z4 w1728923058
+Z5 8clarvi.sv
+Z6 Fclarvi.sv
+Fclarvi_debug.sv
+!i122 68
+L0 74 890
+Z7 OV;L;2020.1;71
+31
+Z8 !s108 1731423077.000000
+Z9 !s107 clarvi_debug.sv|riscv.svh|clarvi.sv|
+Z10 !s90 -reportprogress|300|clarvi.sv|+define+TRACE|
+!i113 1
+Z11 !s92 +define+TRACE
+Z12 tCvgOpt 0
+vclarvi_avalon
+R1
+Z13 !s110 1731423078
+!i10b 1
+!s100 JGXnHP8[`3_HfS?2`gYW70
+Z14 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6R@Z_oF@SFLLeDijM3d232
+R3
+S1
+R0
+R4
+8clarvi_avalon.sv
+Fclarvi_avalon.sv
+!i122 69
+L0 31 65
+R7
+r1
+!s85 0
+31
+Z15 !s108 1731423078.000000
+!s107 clarvi_avalon.sv|
+!s90 -reportprogress|300|clarvi_avalon.sv|
+!i113 1
+R12
+vclarvi_sim
+R1
+R13
+!i10b 1
+!s100 f6QTFj`Ro1Dk`Ibl[cH?62
+R14
+IlMBzM;Q]G=BETA7f9LcGe3
+R3
+S1
+R0
+R4
+Z16 8clarvi_sim.sv
+Z17 Fclarvi_sim.sv
+!i122 71
+L0 29 100
+R7
+r1
+!s85 0
+31
+R15
+!s107 clarvi_sim.sv|
+Z18 !s90 -reportprogress|300|clarvi_sim.sv|
+!i113 1
+R12
+Xclarvi_sv_unit
+R1
+R2
+VQb2YQ1N2fG3chjgR9<H7_3
+r1
+!s85 0
+!i10b 1
+!s100 ?=K:m`1hB>mlIg5W;Kd>V1
+IQb2YQ1N2fG3chjgR9<H7_3
+!i103 1
+S1
+R0
+R4
+R5
+R6
+Friscv.svh
+!i122 68
+L0 39 0
+R7
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdual_port_bram
+R1
+R13
+!i10b 1
+!s100 YF17X^F:eDNb9P1G]]bFg1
+R14
+IPTK:InhzJzz<a06dj4Y[@0
+R3
+S1
+R0
+R4
+8bram.sv
+Fbram.sv
+!i122 70
+L0 29 49
+R7
+r1
+!s85 0
+31
+R15
+!s107 bram.sv|
+!s90 -reportprogress|300|bram.sv|
+!i113 1
+R12
+vmemory_debug
+R1
+R13
+!i10b 1
+!s100 o;1K5l2zMESeR_oIP0zCR1
+R14
+IUC<3]NWLEhW9aOSA3]6LG3
+R3
+S1
+R0
+R4
+R16
+R17
+!i122 71
+L0 131 21
+R7
+r1
+!s85 0
+31
+R15
+Z19 !s107 clarvi_sim.sv|
+R18
+!i113 1
+R12
+vmock_interrupt
+R1
+R13
+!i10b 1
+!s100 AGKAaALJ:3;i1V;F_:6[a1
+R14
+Ih^<:iA9IFAGmdCBY@mSzR2
+R3
+S1
+R0
+R4
+R16
+R17
+!i122 71
+L0 177 11
+R7
+r1
+!s85 0
+31
+R15
+R19
+R18
+!i113 1
+R12
+vmock_waitrequest
+R1
+R13
+!i10b 1
+!s100 aFe`b0HbHlCCdY]fcQO>41
+R14
+IoF^j3C8gm]M1nJP2=OSbE2
+R3
+S1
+R0
+R4
+R16
+R17
+!i122 71
+L0 155 20
+R7
+r1
+!s85 0
+31
+R15
+R19
+R18
+!i113 1
+R12

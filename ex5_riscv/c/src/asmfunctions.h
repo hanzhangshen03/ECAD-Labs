@@ -1,1 +1,3 @@
-/* Put prototypes for your assembly functions in here */
+int div(int a, int b);
+int mod(int a, int b);
+int get_time(void);

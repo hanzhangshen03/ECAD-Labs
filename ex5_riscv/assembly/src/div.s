@@ -14,6 +14,26 @@ div:
     # ...
 
     # do your work
+    li   t0, 32
+    li   t1, 0 # Q
+    li   t2, 0 # R
+loop:
+    addi t0, t0, -1
+    blt   t0, zero, end
+    slli   t2, t2, 1
+    srl   t3, a0, t0
+    andi   t3, t3, 1
+    or   t2, t2, t3	# R[0] = N(i);
+    blt   t2, a1, loop
+    sub   t2, t2, a1
+    li   t3, 1
+    sll   t3, t3, t0
+    or t1, t1, t3
+    j loop
+end:
+    mv a0, t1
+    mv a1, t2
+
     # example of printing inputs a0 and a1
     DEBUG_PRINT a0
     DEBUG_PRINT a1
